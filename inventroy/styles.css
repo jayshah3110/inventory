@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.form {
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input, form button {
+    display: block;
+    margin: 10px 0;
+}
+
+.inventory {
+    width: 50%;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
